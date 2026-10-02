@@ -1,40 +1,25 @@
 <!doctype html>
-<html lang="en" data-bs-theme="light">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Desarrollo web integrado</title>
+    <title>Calculadora de temperaturas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
-    <style>
-        button#temaBtn{
-            display: block;
-        }
-
-    </style>
   </head>
   <body>
-    <h1 class="text-center">JavaScript para el desarrollo web</h1>
-    <main class="container">
-        <div class="row">
-            <div class="col-sm border py-3">
-                <h2 class="text-center">Ejercicio practico</h2>
-                <h3 class="text-center">Temas: DOM, WebStorage y fetch</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm border">
-                <p class="text-center">Haz clic en el botón para cambiar el tema de la página</p>
-                <button id="temaBtn" type="button" class="btn btn-secondary mx-auto">Cambiar tema</button>
-            </div>
-            <div class="col-sm border">fetch</div>
-        </div>
+    
+    <label for="iptTempC">Ingresa una temperatura en Celsius</label>
+    <input  id="iptTempC" type="number" name="tempCelsius" id="tempCelsius">
 
-    </main>
+    <button id="btnFaKe" type="submit">Convertir a Fahrenheit y Kelvin</button>   
+    <!--<button id="btnFahr" type="submit">Convertir solo a Fahrenheit</button>-->
+    <!--<button id="btnKel" type="submit">Convertir solo a Kelvin</button>-->
 
-
-
-    <script src="js/fetch.js"></script>
+    
+    <p id="espacioFahrenheit"></p>
+    <p id="espacioKelvin"></p>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
