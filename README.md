@@ -20,8 +20,11 @@ También incluye un botón para limpiar los resultados. El campo de ingreso de d
 ## Estructura del proyecto
 /
 ├── index.html
+
 ├── css/styles.css
+
 ├── main.js
+
 └── README.md
 
 
