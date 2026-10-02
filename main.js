@@ -9,16 +9,14 @@ const btnClear = document.getElementById("btnClear");
 
 
 btnFahKel.addEventListener("click", ()=> {
-    let temperaturaUsr = parseFloat(iptTempC.value);
-    const espacioFahrenheit = document.getElementById("espacioFahrenheit");
+  let temperaturaUsr = parseFloat(iptTempC.value);
+  const espacioFahrenheit = document.getElementById("espacioFahrenheit");
 
-    let calcularFahrenheit = ((9/5)*temperaturaUsr)+32; 
+  let calcularFahrenheit = ((9/5)*temperaturaUsr)+32; 
 
-    espacioFahrenheit.innerHTML = `La temperatura en grados Fahrenheit es: ${calcularFahrenheit}`;
-    let calcularKelvin = temperaturaUsr + 273.15; 
-
-    espacioKelvin.innerHTML = `La temperatura en grados Kelvin es: ${calcularKelvin}`;
-
+  espacioFahrenheit.innerHTML = `La temperatura en grados Fahrenheit es: ${calcularFahrenheit}`;
+  let calcularKelvin = temperaturaUsr + 273.15; 
+  espacioKelvin.innerHTML = `La temperatura en grados Kelvin es: ${calcularKelvin}`;
   iptTempC.value = "";     
 })
 
