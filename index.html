@@ -6,21 +6,23 @@
     <title>Calculadora de temperaturas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
-    
+
   </head>
   <body>
     <main class="content">
       <div class="row">
         <h1>Conversión de temperaturas</h1>
 
-        <label for="iptTempC">Ingresa una temperatura en Celsius</label>
+        <label for="iptTempC">Ingresa una temperatura en grados Celsius: </label>
         <input  id="iptTempC" type="number" name="tempCelsius" id="tempCelsius">
 
-        <button id="btnFaKe" type="submit">Convertir a Fahrenheit y Kelvin</button>   
+        <button id="btnFahKel" type="submit">Convertir a Fahrenheit y Kelvin</button>   
+
+        <button id="btnClear" type="reset">Limpiar resultados</button>
+
         <!--<button id="btnFahr" type="submit">Convertir solo a Fahrenheit</button>-->
         <!--<button id="btnKel" type="submit">Convertir solo a Kelvin</button>-->
 
-        
         <p id="espacioFahrenheit"></p>
         <p id="espacioKelvin"></p>
       </div>

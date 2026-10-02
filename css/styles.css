@@ -16,7 +16,6 @@ body {
   color: var(--texto);
 }
 
-
 .content {
   background-color: var(--tarjeta);
   padding: 32px;
@@ -24,4 +23,47 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   max-width: 420px;
   width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: var(--texto);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid var(--primario);
+  border-radius: 10px;
+  background-color: var(--fondo);
+  color: var(--texto);
+}
+
+#btnFahKel {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primario);
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+#btnClear{
+  background-color: var(--fondo);
+  margin-bottom: 16px;
+}
+
+button:hover {
+  background-color: var(--primario-hover);
+}
+
+p {
+  margin-top: 16px;
 }
